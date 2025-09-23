@@ -1,0 +1,22 @@
+/* Custom Styles */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero section */
+#hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/1920x1080/?restaurant,interior') center/cover no-repeat;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+
+
+
+
+/* Navbar link active state */
+.nav-link.active {
+  color: #f39c12 !important;
+  font-weight: bold;
+}
