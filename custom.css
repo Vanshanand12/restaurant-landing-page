@@ -21,3 +21,15 @@ body {
   font-weight: bold;
 }
 
+/* ensure content not hidden by fixed navbar */
+body {
+  scroll-behavior: smooth;
+  padding-top: 70px; /* adjust if your navbar height different */
+}
+
+/* visual polish */
+.card { transition: transform .18s ease, box-shadow .18s ease; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+.gallery-thumb { cursor: pointer; transition: transform .18s; }
+.gallery-thumb:hover { transform: scale(1.03); }
+
